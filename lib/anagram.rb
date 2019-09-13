@@ -13,8 +13,7 @@ def match(matches)
     if
   possible_match.split("").sort == @word.split("").sort
     return possible_match
-  else
-    return nil
+
   end
   binding.pry
 end
