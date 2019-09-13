@@ -10,7 +10,7 @@ end
 
 def match(matches)
   matches.each do |possible_match|
-  @word.sort == %w(possible_match).sort 
+  @word.sort == (possible_match).sort 
   binding.pry
 end
 end
