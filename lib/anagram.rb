@@ -11,7 +11,7 @@ end
 def match(matches)
   matches.each do |possible_match|
   possible_match.split("").sort == @word.split("").sort
-  binding.pry
+  #binding.pry
 end
 end
 
