@@ -8,8 +8,7 @@ def initialize(word)
   @word = word
 end
 
-def match(matchsting)
-
+def match(matches)
   matches.each do |possible_match|
   possible_match.split("").sort == @word.split("").sort
   
