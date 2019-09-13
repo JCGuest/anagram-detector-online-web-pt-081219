@@ -9,14 +9,9 @@ def initialize(word)
 end
 
 def match(matches)
-  matches.each do |possible_match|
-    if
+  matches.select do |possible_match|
   possible_match.split("").sort == @word.split("").sort
-    return possible_match
-
   end
-  binding.pry
-end
 end
 
 
