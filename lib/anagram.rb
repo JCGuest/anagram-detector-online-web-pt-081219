@@ -9,10 +9,11 @@ def initialize(word)
 end
 
 def match(matchsting)
-  matches = %w(matchstring)
+
   matches.each do |possible_match|
   possible_match.split("").sort == @word.split("").sort
-  #binding.pry
+  
+  binding.pry
 end
 end
 
