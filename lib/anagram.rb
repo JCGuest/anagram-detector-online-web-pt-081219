@@ -10,7 +10,7 @@ end
 
 def match(matches)
   matches.each do |possible_match|
-  (possible_match).sort
+
   binding.pry
 end
 end
