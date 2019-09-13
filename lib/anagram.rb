@@ -10,7 +10,7 @@ end
 
 def match(matches)
   matches.each do |possible_match|
-  possible_match.split("")
+  possible_match.split("") == @word.split("")
   binding.pry
 end
 end
